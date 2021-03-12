@@ -26,3 +26,12 @@ SONGS = [
 # WEB_HOOK_URL = r'https://open.feishu.cn/open-apis/bot/v2/hook/de4e7d58-4a59-42fc-bc25-4b59e1f137d4'
 
 
+"""mongo数据库配置
+"""
+mongo_host = '127.0.0.1'
+mongo_port = 27017
+mongo_db_name = 'tme_wy_music'
+mongo_db_collection_kugou = 'kugou'
+mongo_db_collection_kuwo = 'kuwo'
+mongo_db_collection_wangyi = 'wangyi'
+mongo_db_collection_qq = 'qq_music'

@@ -8,6 +8,7 @@ from craw.tmeMusic import kuwoCraw
 import config
 from mUtils.bot import FeiShuBot
 import threading #Timer（定时器）是Thread的派生类
+from db.mongodb import MyMongodb
 
 
 """
